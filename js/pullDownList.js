@@ -5,6 +5,7 @@ const menuItems = Array.from(menuBlock.getElementsByTagName('p'))
 function openMenu(e) {
     e.stopPropagation()
     // console.log("Open menu of", this)
+    console.log('bebug!')
     this.classList.toggle("menu-p-psehdo-rotate")
     // console.log(this.getAttribute('toggle'))
     menuHidden.forEach(div => {
