@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Markup №4 Shop</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="menu">
+                <div class="menu__man">
+                    <p toggle="man" tiker='yes' >Для мужчин</p>
+                    <div toggler="man" class="menu__hidden">
+                        <ul>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu__woman">
+                    <p toggle="woman">Для женщин</p>
+                    <div toggler="woman" class="menu__hidden">
+                        <ul>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu__kids">
+                    <p toggle="kids">Для детей</p>
+                    <div toggler="kids" class="menu__hidden">
+                        <ul>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h3 class=nav__title">THE LOOP</h3>
+            <div class="buyer">
+                <p class="buyer__pay">Оплата</p>
+                <p class="buyer__devilery">Доставка</p>
+            </div>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-basket2-fill icons__basket" viewBox="0 0 16 16">
+                    <path
+                        d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-forward icons__arrow" viewBox="0 0 16 16" style="transform: rotate(180deg);">
+                    <path
+                        d="M9.502 5.513a.144.144 0 0 0-.202.134V6.65a.5.5 0 0 1-.5.5H2.5v2.9h6.3a.5.5 0 0 1 .5.5v1.003c0 .108.11.176.202.134l3.984-2.933a.51.51 0 0 1 .042-.028.147.147 0 0 0 0-.252.51.51 0 0 1-.042-.028L9.502 5.513zM8.3 5.647a1.144 1.144 0 0 1 1.767-.96l3.994 2.94a1.147 1.147 0 0 1 0 1.946l-3.994 2.94a1.144 1.144 0 0 1-1.767-.96v-.503H2a.5.5 0 0 1-.5-.5v-3.9a.5.5 0 0 1 .5-.5h6.3v-.503z" />
+                </svg>
+            </div>
+        </nav>
+
+        <div class="owl-carousel owl-theme">
+
+            <div class="banner">
+                <div class="banner__left">
+                    <h3 class="banner__left_title">Зимняя распродажа</h3>
+                    <h1 class="banner__left_sale">СКИДКИ ДО 90%</h1>
+                    <button class="banner__left_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                </div>
+                <div class="banner__right">
+                    <img src="https://s3-alpha-sig.figma.com/img/7f0f/65af/8d778cd9d4f5e9d23f4c49d0601e4090?Expires=1627862400&Signature=I21~RUPbuYdMPVjsH~FT08FQVMM1x8GCkDs~11kQm-74cxH~9nF5~J4W7G20BwhEOiyvnYI0YjkpkeWQvBTMnPX5TuCQLyLsWkBr2Li8w7v9eWDifCTx~2u7FcYFucOCw7AOSP5JSyyBZl15pV4Fc7orc6V8OXjGwFHIwzPFxfio6XzOFteFxUPXvD0B34bhAPzJPbTECedO8Dv767dfctCQsU3cd3LN93K2nmjTnulHvNBTWW52Ct9ZPzwFzVZIRs5~1E0gH7KCGDcQJOmBSXigZzVnULohepFpXtP8wIIrTEk~UHu89cHAWss48b5Ew76lNImqhxpYBlI0W9ugzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="" width="80%" height="120%" class="banner__right_good">
+                </div>
+                <div class="banner__price">
+                    <h3 class="banner__price_old">9 900 ₽</h3>
+                    <h2 class="banner__price_new">1 900 ₽</h2>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner__left">
+                    <h3 class="banner__left_title">Зимняя распродажа</h3>
+                    <h1 class="banner__left_sale">СКИДКИ ДО 90%</h1>
+                    <button class="banner__left_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                </div>
+                <div class="banner__right">
+                    <img src="https://s3-alpha-sig.figma.com/img/7f0f/65af/8d778cd9d4f5e9d23f4c49d0601e4090?Expires=1627862400&Signature=I21~RUPbuYdMPVjsH~FT08FQVMM1x8GCkDs~11kQm-74cxH~9nF5~J4W7G20BwhEOiyvnYI0YjkpkeWQvBTMnPX5TuCQLyLsWkBr2Li8w7v9eWDifCTx~2u7FcYFucOCw7AOSP5JSyyBZl15pV4Fc7orc6V8OXjGwFHIwzPFxfio6XzOFteFxUPXvD0B34bhAPzJPbTECedO8Dv767dfctCQsU3cd3LN93K2nmjTnulHvNBTWW52Ct9ZPzwFzVZIRs5~1E0gH7KCGDcQJOmBSXigZzVnULohepFpXtP8wIIrTEk~UHu89cHAWss48b5Ew76lNImqhxpYBlI0W9ugzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="" width="80%" height="120%" class="banner__right_good">
+                </div>
+                <div class="banner__price">
+                    <h3 class="banner__price_old">9 900 ₽</h3>
+                    <h2 class="banner__price_new">1 900 ₽</h2>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner__left">
+                    <h3 class="banner__left_title">Зимняя распродажа</h3>
+                    <h1 class="banner__left_sale">СКИДКИ ДО 90%</h1>
+                    <button class="banner__left_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                </div>
+                <div class="banner__right">
+                    <img src="https://s3-alpha-sig.figma.com/img/7f0f/65af/8d778cd9d4f5e9d23f4c49d0601e4090?Expires=1627862400&Signature=I21~RUPbuYdMPVjsH~FT08FQVMM1x8GCkDs~11kQm-74cxH~9nF5~J4W7G20BwhEOiyvnYI0YjkpkeWQvBTMnPX5TuCQLyLsWkBr2Li8w7v9eWDifCTx~2u7FcYFucOCw7AOSP5JSyyBZl15pV4Fc7orc6V8OXjGwFHIwzPFxfio6XzOFteFxUPXvD0B34bhAPzJPbTECedO8Dv767dfctCQsU3cd3LN93K2nmjTnulHvNBTWW52Ct9ZPzwFzVZIRs5~1E0gH7KCGDcQJOmBSXigZzVnULohepFpXtP8wIIrTEk~UHu89cHAWss48b5Ew76lNImqhxpYBlI0W9ugzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="" width="80%" height="120%" class="banner__right_good">
+                </div>
+                <div class="banner__price">
+                    <h3 class="banner__price_old">9 900 ₽</h3>
+                    <h2 class="banner__price_new">1 900 ₽</h2>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner__left">
+                    <h3 class="banner__left_title">Зимняя распродажа</h3>
+                    <h1 class="banner__left_sale">СКИДКИ ДО 90%</h1>
+                    <button class="banner__left_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                </div>
+                <div class="banner__right">
+                    <img src="https://s3-alpha-sig.figma.com/img/7f0f/65af/8d778cd9d4f5e9d23f4c49d0601e4090?Expires=1627862400&Signature=I21~RUPbuYdMPVjsH~FT08FQVMM1x8GCkDs~11kQm-74cxH~9nF5~J4W7G20BwhEOiyvnYI0YjkpkeWQvBTMnPX5TuCQLyLsWkBr2Li8w7v9eWDifCTx~2u7FcYFucOCw7AOSP5JSyyBZl15pV4Fc7orc6V8OXjGwFHIwzPFxfio6XzOFteFxUPXvD0B34bhAPzJPbTECedO8Dv767dfctCQsU3cd3LN93K2nmjTnulHvNBTWW52Ct9ZPzwFzVZIRs5~1E0gH7KCGDcQJOmBSXigZzVnULohepFpXtP8wIIrTEk~UHu89cHAWss48b5Ew76lNImqhxpYBlI0W9ugzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="" width="80%" height="120%" class="banner__right_good">
+                </div>
+                <div class="banner__price">
+                    <h3 class="banner__price_old">9 900 ₽</h3>
+                    <h2 class="banner__price_new">1 900 ₽</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script> <!-- start owl carousel -->
+    <script src="js/pullDownList.js"></script>
+</body>
+
+</html>

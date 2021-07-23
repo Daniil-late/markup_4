@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+}
+body {
+  background-color: #F9F6F1;
+  font-family: cursive;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  flex-grow: 0.15;
+}
+
+.buyer {
+  width: 20%;
+}
+
+.icons {
+  width: 60px;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.banner__left {
+  width: 100%;
+}
+.banner__left_title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.banner__left_sale {
+  font-size: 55px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.banner__left_btn {
+  padding: 15px;
+  background-color: #D7B399;
+  outline: none;
+  border: none;
+  color: white;
+}
+.banner__right {
+  position: relative;
+}
+.banner__price {
+  position: absolute;
+  right: 0;
+  bottom: 55%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.banner__price h3, .banner__price h2 {
+  margin: 0;
+  padding: 0;
+}
+.banner__price h2 {
+  font-size: 42px;
+  color: red;
+}
+.banner__price h3 {
+  font-size: 24px;
+  text-decoration: line-through;
+}
+
+.owl-item {
+  height: 550px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  border-radius: none;
+  height: 7px;
+  width: 40px;
+  background-color: #CECECE;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #D7B399;
+}
+
+.menu__man, .menu__woman, .menu__kids {
+  flex-direction: column;
+}
+.menu p {
+  position: relative;
+}
+.menu:hover {
+  cursor: pointer;
+}
+.menu p::after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: url("./svg/caret-down-fill.svg");
+  position: absolute;
+  top: 35%;
+  transition: all 0.5s;
+}
+.menu p::after:hover {
+  cursor: pointer;
+}
+
+.menu-p-psehdo-rotate::after {
+  transition: all 0.5s;
+  transform: rotate(180deg);
+}
+
+.menu__hidden {
+  width: 150px;
+  display: none;
+  position: absolute;
+  top: 20%;
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.menu__hidden li, .menu__hidden ul {
+  padding: 0;
+  margin: 0;
+  background-color: #b6b4b2;
+  list-style: none;
+}
+.menu__hidden ul {
+  width: 120px;
+}
+.menu__hidden li:hover {
+  background-color: #fffdfb;
+}
+
+.menu__show {
+  display: block;
+  transition: all 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,93 @@
+// no adaptive
+@font-face 
+    font-family: 'Montserrat'
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap')
+
+$bgcolor: #F9F6F1
+$contrastColor: #D7B399
+$grayColor: #CECECE
+
+body
+    background-color: $bgcolor
+    font-family: cursive
+
+.container
+    width: 80%
+    margin: 0 auto
+
+nav
+   
+    display: flex
+    justify-content: space-between
+
+    div
+        width: 30%
+        display: flex
+        justify-content: space-between
+
+.menu
+    flex-grow: 0.15
+
+.buyer
+    width: 20%
+
+.icons
+    width: 60px
+    align-items: center
+
+.banner
+    display: flex
+    flex-direction: row
+    margin-top: 100px
+    margin-bottom: 25px
+   
+    &__left
+        width: 100%
+        &_title
+            margin: 0
+            padding: 0
+            margin-bottom: 10px
+        &_sale
+            font-size: 55px
+            margin: 0
+            padding: 0
+            margin-bottom: 30px
+        &_btn
+            padding: 15px
+            background-color: $contrastColor
+            outline: none
+            border: none
+            color: white
+    &__right
+       
+        position: relative
+    &__price
+        position: absolute
+        right: 0
+        bottom: 55%
+        text-align: right
+        margin: 0
+        padding: 0
+        & h3, h2
+            margin: 0
+            padding: 0
+        & h2
+            font-size: 42px
+            color: red
+        & h3
+            font-size: 24px
+            text-decoration: line-through
+
+.owl-item
+     height: 550px
+.owl-theme .owl-dots .owl-dot span
+    border-radius: none
+    height: 7px
+    width: 40px
+    background-color: $grayColor
+
+    
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
+    background-color: $contrastColor
+
+@import ./foundation/_list-top-after

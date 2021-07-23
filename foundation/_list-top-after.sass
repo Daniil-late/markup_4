@@ -1,0 +1,43 @@
+.menu
+    &__man, &__woman, &__kids
+        flex-direction: column
+    & p
+        position: relative
+    &:hover
+        cursor: pointer
+    & p::after
+       content: ""
+       height: 12px
+       width: 12px
+       background: url('./svg/caret-down-fill.svg')
+       position: absolute
+       top: 35%
+
+       transition: all 0.5s
+       &:hover
+           cursor: pointer
+.menu-p-psehdo-rotate::after
+    transition: all 0.5s
+    transform: rotate(180deg)
+
+.menu__hidden
+    width: 150px
+    display: none
+    position: absolute
+    top: 20%
+    z-index: 1000
+    transition: all 0.5s
+    & li,ul
+        padding: 0
+        margin: 0
+        background-color: #b6b4b2
+        list-style: none
+    & ul
+        width: 120px
+    & li:hover
+        background-color: #fffdfb
+
+.menu__show
+    display: block
+    transition: all 0.5s
+    
