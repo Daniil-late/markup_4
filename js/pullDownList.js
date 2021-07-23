@@ -36,3 +36,6 @@ document.addEventListener('mousedown', (e)=>{
   }
   
 })
+
+// for git test
+const arrOfColor = ['red', 'green', 'blue']
